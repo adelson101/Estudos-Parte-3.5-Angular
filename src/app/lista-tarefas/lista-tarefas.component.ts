@@ -4,17 +4,17 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 import { TarefaService } from 'src/app/service/tarefa.service';
 import { Tarefa } from '../interface/tarefa';
-import { CheckTrigger, filterTrigger, highlightedStateTrigger, showStateTrigger } from '../animation';
+import { CheckTrigger, filterTrigger, flyInOutTrigger, formButtonTrigger, highlightedStateTrigger, showStateTrigger } from '../animation';
 
 @Component({
   selector: 'app-lista-tarefas',
   templateUrl: './lista-tarefas.component.html',
   styleUrls: ['./lista-tarefas.component.css'],
-  animations: [highlightedStateTrigger, showStateTrigger,CheckTrigger,filterTrigger]
+  animations: [highlightedStateTrigger, showStateTrigger,CheckTrigger,filterTrigger,formButtonTrigger,flyInOutTrigger]
 })
 export class ListaTarefasComponent implements OnInit {
   listaTarefas: Tarefa[] = [];
-  formAberto: boolean = false;
+  formAberto: boolean = true;
   categoria: string = '';
   validado: boolean = false;
   indexTarefa = -1;
@@ -46,7 +46,7 @@ export class ListaTarefasComponent implements OnInit {
   filtrarTarefasPorDescricao(descricao: string) {
     this.campoBusca = descricao.trim().toLowerCase();
     if(descricao) {
-      this.tarefasFiltradas = this.listaTarefas.filter( tarefas => 
+      this.tarefasFiltradas = this.listaTarefas.filter( tarefas =>
         tarefas.descricao.toLowerCase().includes(this.campoBusca))
     } else {
       this.tarefasFiltradas = this.listaTarefas;

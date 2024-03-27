@@ -55,6 +55,27 @@
       "statusFinalizado": true,
       "categoria": "Estudos",
       "prioridade": "Alta"
+    },
+    {
+      "id": 10,
+      "descricao": "Primeiro",
+      "statusFinalizado": false,
+      "categoria": "Casa",
+      "prioridade": "Alta"
+    },
+    {
+      "id": 11,
+      "descricao": "Namorar Asiática bonita ",
+      "statusFinalizado": false,
+      "categoria": "Casa",
+      "prioridade": "Alta"
+    },
+    {
+      "id": 12,
+      "descricao": "Ir embora para SP",
+      "statusFinalizado": false,
+      "categoria": "Trabalho",
+      "prioridade": "Alta"
     }
   ]
 }
