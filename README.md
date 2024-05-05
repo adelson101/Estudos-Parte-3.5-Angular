@@ -1,27 +1,23 @@
-# 2806Memorando
+O Memorando é um projeto Angular que utiliza uma API para o armazenamento e gerenciamento de tarefas do dia a dia. O projeto tem como foco principal a experiência do usuário, com um design intuitivo e agradável, além de animações interativas utilizando a biblioteca Angular Animation para o UI/UX.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.1.
+Recursos Principais:
 
-## Development server
+Gerenciamento de Tarefas: Os usuários podem adicionar, editar, excluir e marcar como concluídas as tarefas do dia a dia, utilizando uma interface intuitiva e fácil de usar.
+API de Armazenamento Local: O Memorando utiliza uma API para armazenar e recuperar as tarefas dos usuários, garantindo que as informações sejam mantidas de forma segura e acessível.
+Design Responsivo: O projeto possui um design responsivo, que se adapta a diferentes tamanhos de tela e dispositivos, proporcionando uma experiência consistente em desktops, tablets e smartphones.
+Animações Interativas: Utilizando a biblioteca Angular Animation, o Memorando inclui animações interativas para melhorar a experiência do usuário, como transições suaves entre telas e elementos, proporcionando uma experiência visualmente atraente.
+Objetivo do Projeto:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+O objetivo do Memorando é oferecer aos usuários uma ferramenta eficiente e agradável para o gerenciamento de tarefas do dia a dia, focando na usabilidade e na experiência do usuário.
 
-## Code scaffolding
+Tecnologias Utilizadas:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Angular,
+TypeScript,
+HTML,
+CSS,
+API de Armazenamento,
+Angular Animation
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Contribuições:
+O Buscante é um projeto de código aberto da Alura.
